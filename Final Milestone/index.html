@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>FancyCupz</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.css">
+
+<!----------------------------------------- Navigation Bar ---------------------------------------->
+
+		<ul class="menu">
+			<li> <a href="index.html">Home</a></li>
+			<li> <a href="Build.html">Design A Cup</a></li>
+			<li> <a href="Pre-Made.html">Store</a></li>
+			<li> <a href="About.html">About</a></li>
+		</ul>
+</head>
+<body>
+<!------------------------------------------- Home Banner  -------------------------------------------->
+	
+	<div class="banner"><h2>Fanzy Cups</h2></div>
+
+<!--------------------------------- Body - Designer Favorites ----------------------------------------->
+
+	<div>
+		<h1>DESIGNER'S TOP PICKS</h1>
+	</div>
+		
+	<h4>Click an image to enlarge</h4>
+
+	<div class="row">
+  		<div class="column">
+    		<img src="image/cup15.jpg" alt="Sorority 1" onclick="myFunction(this);">
+  		</div>
+  		<div class="column">
+    		<img src="image/cup14.jpg" alt="Sorority 2" onclick="myFunction(this);">
+  		</div>
+  		<div class="column">
+    		<img src="image/cup13.jpg" alt="Sorority 3" onclick="myFunction(this);">
+  		</div>
+  		<div class="column">
+   			 <img src="image/cup12.jpg" alt="Fraternity 2" onclick="myFunction(this);">
+   		</div>
+   	</div>
+
+	<!-- The expanding image container -->
+	<div class="container">
+  		<!-- Close the image -->
+  		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  		<!-- Expanded image -->
+  		<img id="expandedImg" style="width:100%">
+
+  		<!-- Image text -->
+  		<div id="imgtext"></div>
+	</div>
+
+	<script src="main.js"></script>
+	<script>
+		function myFunction(imgs) {
+  		var expandImg = document.getElementById("expandedImg");
+  		var imgText = document.getElementById("imgtext");
+  		expandImg.src = imgs.src;
+  		imgText.innerHTML = imgs.alt;
+  		expandImg.parentElement.style.display = "block";
+		}
+	</script>
+	
+<!--------------------------------------------- Footer ----------------------------------------------->
+
+	<div id="bottom">
+    	<p>Be Sure To Follow Us On Facebook! <br/>
+        	<a href="https://www.facebook.com/fancycupz/">FancyCupz</a></p> 
+	</div>
+</body>
+
+</html>
+
+
+

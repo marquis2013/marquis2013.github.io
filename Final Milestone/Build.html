@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>FancyCupz</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style(Build).css">
+
+
+<!----------------------------------------- Navigation Bar----------------------------------->
+
+		<ul class="menu">
+			<li> <a href="index.html">Home</a></li>
+			<li> <a href="Build.html">Design A Cup</a></li>
+			<li> <a href="Pre-Made.html">Pre-Made</a></li>
+			<li> <a href="About.html">About</a></li>
+		</ul>
+
+<!-------------------------------------- Form Banner --------------------------------------------->
+
+    <title>Design Your Cup Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+
+  <body>
+<!------------------------ Connect to insert.php (which is connected to the database) --------------------->
+
+    <div class="testbox">
+      <form action="insert.php" method="post">
+        <div class="banner">
+          <h1>Design Your Cup Form</h1>
+        </div>
+
+<!------------------------------------- Form: Personal Information ------------------------------------------------>
+
+        <div class="item">
+          <p>Name</p>
+          <div class="name-item">
+            <input type="text" id="firstName" name="firstName" placeholder="First" required />
+            <input type="text" id="lastName" name="lastName" placeholder="Last" required />
+          </div>
+        </div>
+
+        <div class="item">
+          <p>Email</p>
+          <input type="text" id="email" name="email" required />
+        </div>
+
+        <div class="item">
+          <p>Phone</p>
+          <input type="text" id="phone" name="phone" required />
+        </div>
+
+        <div class="item">
+          <p>Address</p>
+          <input type="text" id="street" name="street" placeholder="Street address" required />
+          <input type="text" id="street2" name="street2" placeholder="Street address line 2" required />
+          <div class="city-item">
+            <input type="text" id="city" name="city" placeholder="City" required />
+            <input type="text" id="state" name="state" placeholder="State" required />
+            <input type="text" id="zip" name="zip" placeholder="Postal / Zip code" required />
+            <select id="country" name="country" required>
+              <option selected hidden>Country</option>
+              <option value="USA">USA</option>
+              <option value="Canada">Canada</option>
+              <option value="Mexico">Mexico</option>
+            </select>
+          </div>
+        </div>
+
+<!-------------------------------------------- Form: Cup infomation --------------------------------------------------->
+
+        <div class="question">
+          <p>Cup Size</p>
+          <div class="question-answer">
+            <div>
+              <input type="radio" id="radio_1" name="size" value="20" required />
+              <label for="radio_1" class="radio"><span>20oz cup($25/5 letters included)</span></label>
+            </div>
+            <div>
+              <input type="radio" id="radio_2" name="size" value="30" required />
+              <label for="radio_2" class="radio"><span>30oz cup($30/10 letters included)</span></label>
+            </div>
+            <div>
+              <input type="radio" id="radio_3" name="size" value="40"required />
+              <label for="radio_3" class="radio"><span>40oz cup($35/15 letters included)</span></label>
+            </div>
+        
+
+        <!-- Describing the Cup -->
+        <div class="item" id="description" name="description">
+          <p><strong>Briefly describe the main theme of your cup</strong></p>
+          <p>[Note: Design will be emailed for approval prior to completing the order]</p>
+          <textarea rows="5"></textarea>
+        </div>
+
+        <!-- Extra Lettering -->
+        <div class="item" id="extra" name="extra">
+          <p><strong>What do you want your cup to say?</strong></p>
+          <p>*Additional Lettering is 5 cents per letter*</p>
+          <textarea rows="3"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="btn-block">
+          <button type="submit" value="Submit" href="/">Submit</button>
+        </div>
+      </form>
+    </div><br>
+    
+<!------------------------------------------- No Footer ----------------------------------------------->
+  </body>
+</html>
