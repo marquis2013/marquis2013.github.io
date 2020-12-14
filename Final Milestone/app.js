@@ -1,6 +1,0 @@
-// show cart
-
-(function(){
-	
-
-})();
