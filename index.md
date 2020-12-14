@@ -1,22 +1,15 @@
-## Welcome to GitHub Pages
+## Welcome to my Epotfoilo
 
 You can use the [editor on GitHub](https://github.com/marquis2013/marquis2013.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Self Assighment
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
-
-Thought-out my computer science program I have heard time and time again how important it was to keep your work, software, and data neat and organized. This was not just for the programmer’s own benefit but for the benefit of the team. Now matter what form of coding or computer science you need up doing these core components are always the same. 
-Having worked in different forms of teams such as for my school, my jobs, or my personal projects I have always thought that organized is key. For if the project it well organized and understandable than any programmer should have the ability to come into the project and find what they need and work on the project without much of a hassle. I believe that a good strength of mine is problem solving. When it comes to memorizing code and terms, but I am good at researching and finding the solutions for my problems. If one way can’t be done, I look for other ways that can be just as good or even better than the way that won’t suffice.  
-
-Today, the artifact that I will be using is a website design that I am created in my website design class. It is a HTML code creating a decorative cup online store. It was created about 2 month ago in my previous class. I selected this item because I felt a real desire to improve my skills in HTML programing and felt a talent for it through the class. I truly like working on the project and I wanted to do more than the class wanted me to actually do. Since this ePortfolio is to show off our talents I decided to showcase something I actually like to do. I believe the whole artifact shows my skills, it shows how I’m able to come up with creative ideas and create it from scratch. I’m even to look at other ideas and transform them into something new. The class was only meant to create a design for the website, but I want to make the website as fully functional as I can. Adding a working database and cart system which will involve other forms of coding. 
-My overall goal was to use that knowledge I have gained through my time here at the university to build the working website. After getting everything working and completed, I would have to say that honestly the website isn’t 100% fully functional. I reached my goals for this project but things like a more advanced shopping cart that able to take you to a buying window and even the process to buy are steps that would require a lot more time on my end. 
-
 
 # Header 1
 ## Header 2
