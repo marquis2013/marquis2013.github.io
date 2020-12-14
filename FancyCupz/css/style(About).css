@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   /* HTML5 display-role reset for older browsers */
+ 
+    html, body{
+        margin: 0;
+        outline: none;
+        font-family: Roboto, Arial, sans-serif;
+        height: 100%;
+    }
+
+  /*------------------ Header ------------------*/
+  .menu {
+    font-size: 1.15rem;
+  }
+
+  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 25px 20px;
+        text-decoration: none;
+    }
+
+
+/*-------------------- About -----------------------*/
+
+    .about{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+   .left_side {
+        width: 50%;
+        height: 100%;
+        float: left;
+   }
+
+   .left_image {
+        width:100%;
+        height:100%;
+        vertical-align: middle;
+}
+
+   .right_side{
+        width: 50%;
+        height:100%;
+        float: right;
+        background-color: #003366;
+   }
+
+   .text-box{
+    margin: auto;
+    width: 600px;
+    height: 300px;
+
+   }
+
+   h4{
+    padding-left: 40px;
+    padding-top: 40px;
+    color: #b3f0ff;
+    font-family: fantasy;
+    letter-spacing: 1px;
+   }
+
+   h1{
+        font-size: 75px;
+        padding-left : 40px;
+        color: white;
+        font-family: fantasy;
+   }
+
+   p {
+        padding-left: 20px;
+        color: #d9d9d9;
+        line-height: 150%;
+   }
+
+   /*------------------ Footer ------------------*/
+
+#bottom {
+        bottom: 0px;
+        margin: 0;
+        width:100%;
+        padding: 10px;
+        background-color:#1E1E1E;
+        color: #fff;
+    }
+
+    #bottom p{
+        text-align:center;
+        line-height:2em;
+    }
+
+    #bottom a{
+        color: #000;
+        text-decoration:none;
+        border:1px solid #000;
+        padding:10px 20px 12px;
+        line-height:70px;
+        background:#ccc;
+    
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    #bottom a:hover{
+        background:#ECECEC;
+        border:1px solid #fff;
+    }
