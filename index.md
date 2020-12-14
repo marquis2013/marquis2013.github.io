@@ -1,23 +1,26 @@
-## Welcome to my Epotfoilo
+## Welcome to my Eportfolio
 
-You can use the [editor on GitHub](https://github.com/marquis2013/marquis2013.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Thank you fo viewing my portfolio
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# This Is My Computer Science Capstone
 
 ### Self-Assessment
+Click here to download my [Self-Assessment](https://github.com/marquis2013/marquis2013.github.io/blob/main/Self-Assessment.docx)
+Click here to view my [Self-Assessment](https://github.com/marquis2013/marquis2013.github.io/blob/main/Assesment)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## The Goal For The Course
 
-# Header 1
-## Header 2
+In this cousre I need to showcase my skills and abilities from the Computer Science program. Demonstrating my skills and abilities in three key categories: 
+
+- Software design and engineering 
+- Algorithms and data structure 
+- Databases
+
+
+Click here to download my [Narrtive Progress Reports](https://github.com/marquis2013/marquis2013.github.io/tree/main/Narratives) thoughtout the process of developing my HTML code.
+
 ### Header 3
-
-- Bulleted
-- List
-
 1. Numbered
 2. List
 
